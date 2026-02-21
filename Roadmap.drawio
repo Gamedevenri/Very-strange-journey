@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.4.0">
   <diagram name="Сторінка-1" id="hqk3mX4OHd53ow1HViPB">
-    <mxGraphModel dx="1219" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,7 +69,7 @@
         <mxCell id="8Nh2MQZqd6gN90RzG-tv-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Створення мапи, та дороги" vertex="1">
           <mxGeometry height="60" width="120" x="554" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="mSb78ZQtKx03t4ynUNvZ-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Виправити камеру" vertex="1">
+        <mxCell id="mSb78ZQtKx03t4ynUNvZ-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Виправити камеру" vertex="1">
           <mxGeometry height="60" width="120" x="750" y="540" as="geometry" />
         </mxCell>
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-7" edge="1" parent="1" source="mSb78ZQtKx03t4ynUNvZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mSb78ZQtKx03t4ynUNvZ-6" value="">
