@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.4.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.1">
   <diagram name="Сторінка-1" id="hqk3mX4OHd53ow1HViPB">
-    <mxGraphModel dx="1406" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1143" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,7 +66,7 @@
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-5" edge="1" parent="1" source="8Nh2MQZqd6gN90RzG-tv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mSb78ZQtKx03t4ynUNvZ-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8Nh2MQZqd6gN90RzG-tv-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Створення мапи, та дороги" vertex="1">
+        <mxCell id="8Nh2MQZqd6gN90RzG-tv-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Створення мапи, та дороги" vertex="1">
           <mxGeometry height="60" width="120" x="554" y="730" as="geometry" />
         </mxCell>
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Виправити камеру" vertex="1">
@@ -75,7 +75,7 @@
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-7" edge="1" parent="1" source="mSb78ZQtKx03t4ynUNvZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mSb78ZQtKx03t4ynUNvZ-6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mSb78ZQtKx03t4ynUNvZ-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Текст з пам&#39;яткою, що це дорога" vertex="1">
+        <mxCell id="mSb78ZQtKx03t4ynUNvZ-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Текст з пам&#39;яткою, що це дорога" vertex="1">
           <mxGeometry height="60" width="120" x="720" y="730" as="geometry" />
         </mxCell>
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-9" edge="1" parent="1" source="mSb78ZQtKx03t4ynUNvZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mSb78ZQtKx03t4ynUNvZ-8" value="">
@@ -87,16 +87,16 @@
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-12" edge="1" parent="1" source="mSb78ZQtKx03t4ynUNvZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mSb78ZQtKx03t4ynUNvZ-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mSb78ZQtKx03t4ynUNvZ-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Дорожній знак стоп, який буде поступово спускатися вниз" vertex="1">
+        <mxCell id="mSb78ZQtKx03t4ynUNvZ-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Дорожній знак стоп, який буде поступово спускатися вниз" vertex="1">
           <mxGeometry height="60" width="120" x="1050" y="730" as="geometry" />
         </mxCell>
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-14" edge="1" parent="1" source="mSb78ZQtKx03t4ynUNvZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mSb78ZQtKx03t4ynUNvZ-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mSb78ZQtKx03t4ynUNvZ-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Рандомні летючі об&#39;єкти&amp;nbsp;" vertex="1">
+        <mxCell id="mSb78ZQtKx03t4ynUNvZ-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Рандомні летючі об&#39;єкти&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="1220" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="mSb78ZQtKx03t4ynUNvZ-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Кнопка нажміть D та S, щоб злетіти. А потім текст з насмішкою над гравцем&amp;nbsp;" vertex="1">
+        <mxCell id="mSb78ZQtKx03t4ynUNvZ-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Кнопка нажміть D та S, щоб злетіти. А потім текст з насмішкою над гравцем&amp;nbsp;" vertex="1">
           <mxGeometry height="90" width="120" x="1400" y="715" as="geometry" />
         </mxCell>
       </root>
