@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://3ieii5ong6r3"]
+
+[ext_resource type="PackedScene" uid="uid://lnobe8rbtxue" path="res://Assets/models/Toilet/low-poly_toilet.glb" id="1_am6yq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hkvc2"]
+size = Vector3(0.45550537, 0.8625488, 1)
+
+[node name="Toilet" type="Node3D" unique_id=787809900]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=1725824435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.927102, 3.0434618, 10.526096)
+linear_velocity = Vector3(0, 4.49, 8.34)
+
+[node name="Sketchfab_Scene" parent="RigidBody3D" unique_id=1352027558 instance=ExtResource("1_am6yq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1168298635]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.014984131, 0.45031738, 0)
+shape = SubResource("BoxShape3D_hkvc2")

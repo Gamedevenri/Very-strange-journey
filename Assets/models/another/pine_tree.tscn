@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://caqxfqurbp3ku"]
+
+[ext_resource type="PackedScene" uid="uid://bhums0j31gm5n" path="res://Assets/models/another/pine_tree.glb" id="1_hw1e5"]
+[ext_resource type="Material" uid="uid://d01d0h08lqqn6" path="res://Assets/materials/m_trunk.tres" id="2_cgtpc"]
+[ext_resource type="Material" uid="uid://d28lq2qtgdyie" path="res://Assets/materials/m_pine_leaves.tres" id="2_xnytt"]
+
+[node name="pine_tree" unique_id=1472170096 instance=ExtResource("1_hw1e5")]
+
+[node name="Trunk" parent="." index="0" unique_id=1207469472]
+surface_material_override/0 = ExtResource("2_cgtpc")
+
+[node name="Leaves" parent="." index="1" unique_id=91015585]
+surface_material_override/0 = ExtResource("2_xnytt")

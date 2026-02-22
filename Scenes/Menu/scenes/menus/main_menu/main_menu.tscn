@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://qexg2d2y83no"]
+
+[ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_game_template/base/nodes/menus/main_menu/main_menu.tscn" id="1_vf4aq"]
+[ext_resource type="Script" uid="uid://b77yca6q8g0dp" path="res://Scenes/Menu/scenes/menus/main_menu/main_menu.gd" id="2_4o06r"]
+[ext_resource type="PackedScene" uid="uid://bnlu4t404cqom" path="res://Scenes/Menu/scenes/windows/main_menu_options_window.tscn" id="3_mlvww"]
+[ext_resource type="PackedScene" uid="uid://dogirln14jhev" path="res://Scenes/Menu/scenes/windows/main_menu_credits_window.tscn" id="4_x1nys"]
+[ext_resource type="PackedScene" uid="uid://cwt4p3bufkke5" path="res://addons/maaacks_game_template/base/nodes/windows/confirmation_overlaid_window.tscn" id="5_i3dpw"]
+
+[node name="MainMenu" unique_id=869232425 instance=ExtResource("1_vf4aq")]
+script = ExtResource("2_4o06r")
+level_select_packed_scene = null
+confirm_new_game = true
+options_packed_scene = ExtResource("3_mlvww")
+credits_packed_scene = ExtResource("4_x1nys")
+
+[node name="BackgroundMusicPlayer" parent="." index="1" unique_id=1141822549]
+bus = &"Master"
+
+[node name="TitleLabel" parent="MenuContainer/TitleMargin/TitleContainer" parent_id_path=PackedInt32Array(556427956) index="0" unique_id=359406872]
+offset_top = 316.0
+offset_bottom = 425.0
+text = "Very strange journey"
+
+[node name="SubTitleMargin" parent="MenuContainer" parent_id_path=PackedInt32Array(396616752) index="1" unique_id=1510335937]
+visible = false
+
+[node name="SubTitleLabel" parent="MenuContainer/SubTitleMargin/SubTitleContainer" parent_id_path=PackedInt32Array(930520368) index="0" unique_id=1037003361]
+visible = false
+
+[node name="MenuButtonsBoxContainer" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer" parent_id_path=PackedInt32Array(116448484) index="0" unique_id=2017477786]
+offset_left = -167.0
+offset_top = -239.5
+offset_right = 167.0
+offset_bottom = 239.5
+
+[node name="ContinueGameButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" index="1" unique_id=1495566523]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Continue"
+
+[node name="LevelSelectButton" type="Button" parent="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer" index="2" unique_id=1348895676]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Level Select"
+
+[node name="NewGameConfirmation" parent="." index="5" unique_id=487332143 instance=ExtResource("5_i3dpw")]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(420, 200)
+layout_mode = 1
+offset_left = -210.0
+offset_top = -100.0
+offset_right = 210.0
+offset_bottom = 100.0
+text = "Are you sure you want to start a new game?
+
+All progress in the current game will be lost."
+title = "New Game"
+
+[connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/ContinueGameButton" to="." method="_on_continue_game_button_pressed"]
+[connection signal="pressed" from="MenuContainer/MenuButtonsMargin/MenuButtonsContainer/MenuButtonsBoxContainer/LevelSelectButton" to="." method="_on_level_select_button_pressed"]
+[connection signal="confirmed" from="NewGameConfirmation" to="." method="_on_new_game_confirmation_confirmed"]

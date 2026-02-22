@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://boevuw4cpqr77"]
+
+[ext_resource type="Script" uid="uid://dbs7w46dmhe8a" path="res://Scripts/Events/GarbageEvent.cs" id="1_1f2af"]
+[ext_resource type="PackedScene" uid="uid://cnbupojj5vh7y" path="res://Assets/models/Garbage/Garbage.tscn" id="2_hvbft"]
+
+[sub_resource type="Animation" id="Animation_1f2af"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_hvbft"]
+resource_name = "on_ready"
+length = 3.5
+step = 0.0333333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8333333, 2.5666666, 3.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vm4f3"]
+_data = {
+&"RESET": SubResource("Animation_1f2af"),
+&"on_ready": SubResource("Animation_hvbft")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_4wyv0"]
+font_size = 35
+
+[node name="GarbageEvent" type="Node3D" unique_id=1375723705 node_paths=PackedStringArray("anims")]
+script = ExtResource("1_1f2af")
+anims = NodePath("AnimationPlayer")
+GargageScene = ExtResource("2_hvbft")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=649345980]
+libraries/ = SubResource("AnimationLibrary_vm4f3")
+
+[node name="Label" type="Label" parent="." unique_id=1645484578]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -567.0
+offset_top = -89.0
+offset_right = 572.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Sorry, but my mom asked me to take out the trash. Could you do it?"
+label_settings = SubResource("LabelSettings_4wyv0")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

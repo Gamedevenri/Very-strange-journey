@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://ikspm3hhkb1g"]
+
+[ext_resource type="Script" uid="uid://dlsurk0416xdi" path="res://Scripts/Events/SDprank.cs" id="1_sk4rh"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0hp3l"]
+font_size = 83
+
+[sub_resource type="Animation" id="Animation_0hp3l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_sk4rh"]
+resource_name = "hide"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_lfcqa"]
+resource_name = "on_ready"
+length = 0.6
+step = 0.0333333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_33ylb"]
+_data = {
+&"RESET": SubResource("Animation_0hp3l"),
+&"hide": SubResource("Animation_sk4rh"),
+&"on_ready": SubResource("Animation_lfcqa")
+}
+
+[node name="SDprank" type="Node3D" unique_id=298491180 node_paths=PackedStringArray("label", "anims")]
+script = ExtResource("1_sk4rh")
+label = NodePath("Label")
+anims = NodePath("AnimationPlayer")
+
+[node name="Label" type="Label" parent="." unique_id=2036927127]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1229.5
+offset_top = -130.0
+offset_right = 1229.5
+offset_bottom = 130.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "URGENTLY PRESS S AND D!"
+label_settings = SubResource("LabelSettings_0hp3l")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1414510708]
+libraries/ = SubResource("AnimationLibrary_33ylb")
+autoplay = &"on_ready"

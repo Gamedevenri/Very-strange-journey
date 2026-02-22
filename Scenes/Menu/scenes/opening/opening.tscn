@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://cbhmi1df0vq32"]
+
+[ext_resource type="PackedScene" uid="uid://sikc02ddepyt" path="res://addons/maaacks_game_template/base/nodes/opening/opening.tscn" id="1_xjw8l"]
+[ext_resource type="Texture2D" uid="uid://c3nsl3m8ef41t" path="res://Scenes/Menu/assets/images/GWJ-Full-Logo-tag-Orange2.svg" id="2_um42m"]
+[ext_resource type="Texture2D" uid="uid://78ujt3v4k2wh" path="res://Assets/Cards/Theme.png" id="3_xjw8l"]
+[ext_resource type="Texture2D" uid="uid://d1aygjs4pymn" path="res://Assets/Cards/cards.png" id="4_xjw8l"]
+
+[node name="Opening" unique_id=1930105641 instance=ExtResource("1_xjw8l")]
+images = Array[Texture2D]([ExtResource("2_um42m"), ExtResource("3_xjw8l"), ExtResource("4_xjw8l")])
+
+[node name="ColorRect" type="ColorRect" parent="." index="0" unique_id=795258021]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.11563488, 0.11563488, 0.115634866, 1)
+
+[node name="BackgroundMusicPlayer" parent="." index="1" unique_id=1317385298]
+bus = &"Master"
+
+[node name="ImagesContainer" parent="." index="2" unique_id=1471559661]
+theme_override_constants/margin_left = 64
+theme_override_constants/margin_top = 64
+theme_override_constants/margin_right = 64
+theme_override_constants/margin_bottom = 64

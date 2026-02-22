@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bp4nds5no25h1"]
+
+[ext_resource type="Script" uid="uid://cp25a6endmueh" path="res://Scripts/Player/Player.cs" id="1_457lt"]
+[ext_resource type="Script" uid="uid://bwnrlb4v3u5k8" path="res://Scripts/Player/Camera.cs" id="2_pshfv"]
+[ext_resource type="PackedScene" uid="uid://d00ne3l4ct4ll" path="res://Scenes/Prefabs/Player/HUD.tscn" id="3_jn6sr"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_457lt"]
+
+[node name="Player" type="CharacterBody3D" unique_id=353245328 node_paths=PackedStringArray("InteractionRay", "ItemPosition", "collision", "camera") groups=["player"]]
+script = ExtResource("1_457lt")
+InteractionRay = NodePath("Camera3D/RayCast3D")
+ItemPosition = NodePath("Camera3D/ItemPosition")
+collision = NodePath("CollisionShape3D")
+camera = NodePath("Camera3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=434562471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_457lt")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=621648661]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5287409, -0.5265207)
+script = ExtResource("2_pshfv")
+
+[node name="RayCast3D" type="RayCast3D" parent="Camera3D" unique_id=521019190]
+transform = Transform3D(1, 0, 0, 0, -7.575656e-08, -0.99999994, 0, 1.733108, -4.3711385e-08, 0, 0, 0)
+collide_with_areas = true
+
+[node name="ItemPosition" type="Marker3D" parent="Camera3D" unique_id=1028172855]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0647767)
+
+[node name="Hud" parent="." unique_id=1344884929 instance=ExtResource("3_jn6sr")]

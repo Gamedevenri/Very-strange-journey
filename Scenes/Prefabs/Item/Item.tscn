@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://q6yqnfsjrtnv"]
+
+[ext_resource type="PackedScene" uid="uid://yf3iwd1nm4h6" path="res://Scenes/Prefabs/Item/ItemLabel.tscn" id="2_mf280"]
+
+[node name="Item" type="RigidBody3D" unique_id=2129962513 groups=["item"]]
+
+[node name="ItemText" parent="." unique_id=1543692032 instance=ExtResource("2_mf280")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.58768386, 0)

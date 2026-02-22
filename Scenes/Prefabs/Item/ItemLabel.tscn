@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://yf3iwd1nm4h6"]
+
+[ext_resource type="Script" uid="uid://cbfp34pygonbo" path="res://Scripts/Items/ItemText.cs" id="1_ibo05"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hfoko"]
+billboard_mode = 1
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ibo05"]
+size = Vector2(0.2, 0.2)
+orientation = 2
+
+[node name="ItemText" type="Node3D" unique_id=1543692032 node_paths=PackedStringArray("ItemLabel")]
+script = ExtResource("1_ibo05")
+ItemLabel = NodePath("Text")
+
+[node name="Text" type="Label3D" parent="." unique_id=411726239]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13355622, 0)
+billboard = 1
+text = "Some text"
+font_size = 12
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1204438466]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3024394, 0)
+material_override = SubResource("StandardMaterial3D_hfoko")
+mesh = SubResource("PlaneMesh_ibo05")
+
+[node name="Button" type="Label3D" parent="MeshInstance3D" unique_id=1354064233]
+billboard = 1
+text = "E"

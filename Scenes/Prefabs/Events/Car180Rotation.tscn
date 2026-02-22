@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bpl5xk5vu33py"]
+
+[ext_resource type="Script" uid="uid://de3e0o141juqs" path="res://Scripts/Events/Car180Rotation.cs" id="1_qc25o"]
+
+[node name="Car180Rotation" type="Node3D" unique_id=1905770788]
+script = ExtResource("1_qc25o")

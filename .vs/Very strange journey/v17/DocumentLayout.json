@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|c:\\users\\asus\\documents\\github\\very-strange-journey\\scripts\\events\\theend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|solutionrelative:scripts\\events\\theend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|c:\\users\\asus\\documents\\github\\very-strange-journey\\scripts\\triggers\\triggershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|solutionrelative:scripts\\triggers\\triggershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|c:\\users\\asus\\documents\\github\\very-strange-journey\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|solutionrelative:scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|c:\\users\\asus\\documents\\github\\very-strange-journey\\scripts\\events\\car180rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6AFCEBF-5A41-4143-A203-283726F56431}|Very strange journey.csproj|solutionrelative:scripts\\events\\car180rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TriggersHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Triggers\\TriggersHandler.cs",
+              "RelativeDocumentMoniker": "Scripts\\Triggers\\TriggersHandler.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Triggers\\TriggersHandler.cs",
+              "RelativeToolTip": "Scripts\\Triggers\\TriggersHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T20:08:47.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TheEnd.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Events\\TheEnd.cs",
+              "RelativeDocumentMoniker": "Scripts\\Events\\TheEnd.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Events\\TheEnd.cs",
+              "RelativeToolTip": "Scripts\\Events\\TheEnd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T20:08:25.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car180Rotation.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Events\\Car180Rotation.cs",
+              "RelativeDocumentMoniker": "Scripts\\Events\\Car180Rotation.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Events\\Car180Rotation.cs",
+              "RelativeToolTip": "Scripts\\Events\\Car180Rotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T17:54:02.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\Very-strange-journey\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Scripts\\Player\\Player.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T17:53:12.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
