@@ -60,6 +60,9 @@
         <mxCell id="8Nh2MQZqd6gN90RzG-tv-23" edge="1" parent="1" source="8Nh2MQZqd6gN90RzG-tv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8Nh2MQZqd6gN90RzG-tv-22" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Yp3fuPKf0Iep_ZmcY2xS-4" edge="1" parent="1" source="8Nh2MQZqd6gN90RzG-tv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Yp3fuPKf0Iep_ZmcY2xS-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8Nh2MQZqd6gN90RzG-tv-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Оточення" vertex="1">
           <mxGeometry height="60" width="120" x="354" y="730" as="geometry" />
         </mxCell>
@@ -96,8 +99,17 @@
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Рандомні летючі об&#39;єкти&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="1220" y="730" as="geometry" />
         </mxCell>
+        <mxCell id="Yp3fuPKf0Iep_ZmcY2xS-6" edge="1" parent="1" source="mSb78ZQtKx03t4ynUNvZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Yp3fuPKf0Iep_ZmcY2xS-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mSb78ZQtKx03t4ynUNvZ-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Кнопка нажміть D та S, щоб злетіти. А потім текст з насмішкою над гравцем&amp;nbsp;" vertex="1">
           <mxGeometry height="90" width="120" x="1400" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="Yp3fuPKf0Iep_ZmcY2xS-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Колізії мапи" vertex="1">
+          <mxGeometry height="60" width="120" x="154" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Yp3fuPKf0Iep_ZmcY2xS-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Раптовий переворот на 180 градусів машини" vertex="1">
+          <mxGeometry height="60" width="120" x="1560" y="730" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
