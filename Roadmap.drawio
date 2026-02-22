@@ -108,7 +108,7 @@
         <mxCell id="Yp3fuPKf0Iep_ZmcY2xS-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Колізії мапи" vertex="1">
           <mxGeometry height="60" width="120" x="154" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="Yp3fuPKf0Iep_ZmcY2xS-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Раптовий переворот на 180 градусів машини" vertex="1">
+        <mxCell id="Yp3fuPKf0Iep_ZmcY2xS-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Раптовий переворот на 180 градусів машини" vertex="1">
           <mxGeometry height="60" width="120" x="1560" y="730" as="geometry" />
         </mxCell>
       </root>
